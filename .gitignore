@@ -1,0 +1,70 @@
+Skip to content
+
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+
+@zzhgogo Sign out
+53
+508 189 xkcoding/spring-boot-demo
+ Code  Issues 1  Pull requests 0  Projects 0  Wiki  Insights
+spring-boot-demo/.gitignore
+@xkcoding xkcoding 🙈 更新 .gitignore 文件
+9024f06 on 19 Oct 2018
+40 lines (34 sloc)  452 Bytes
+
+# Created by .ignore support plugin (hsz.mobi)
+### xkcoding-后端 template
+### Spring Boot ###
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+gen/
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### LOGS ###
+logs/
+*.log
+
+### Mac OS ###
+.DS_Store
+
+### VS CODE ###
+.vscode/
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
