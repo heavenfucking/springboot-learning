@@ -2,37 +2,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zzh.learn</groupId>
-    <artifactId>com.zzh.learn</artifactId>
+    <artifactId>springboot</artifactId>
+    <groupId>com.zhu.springboot</groupId>
+
     <version>1.0-SNAPSHOT</version>
+
     <packaging>pom</packaging>
 
     <modules>
+        <module>springboot-config</module>
+        <module>springboot-es</module>
+        <module>springboot-websocket</module>
+        <module>springboot-weixin4j</module>
+        <module>springboot-weixin</module>
         <module>springboot-cache</module>
     </modules>
-
-
-    <properties>
-        <spring-boot.version>2.1.0.RELEASE</spring-boot.version>
-    </properties>
-
-    <distributionManagement>
-        <repository>
-            <!-- id必须与settings.xml中配置的server名字一致，才能找到对应的密码-->
-            <id>artifactory-release</id>
-            <name>Artifactory Snapshots Repository</name>
-            <url>http://artifactory.manqian.cn/artifactory/libs-release-local</url>
-        </repository>
-
-        <snapshotRepository>
-            <id>artifactory-snapshots</id>
-            <name>artifactory repository</name>
-            <url>http://artifactory.manqian.cn/artifactory/libs-snapshot-local</url>
-        </snapshotRepository>
-    </distributionManagement>
-
 
     <dependencyManagement>
         <dependencies>
