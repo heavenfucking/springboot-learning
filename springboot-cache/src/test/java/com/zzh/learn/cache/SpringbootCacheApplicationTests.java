@@ -1,5 +1,7 @@
 package com.zzh.learn.cache;
 
+import com.zzh.learn.cache.entity.User;
+import com.zzh.learn.cache.service.CacheService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -20,6 +20,7 @@
         <module>springboot-weixin4j</module>
         <module>springboot-weixin</module>
         <module>springboot-cache</module>
+        <module>springboot-event</module>
     </modules>
 
     <dependencyManagement>
