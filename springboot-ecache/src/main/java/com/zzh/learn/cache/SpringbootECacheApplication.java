@@ -7,17 +7,16 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ApplicationContext;
 
 
-//https://www.cnblogs.com/cnjavahome/p/8436219.html
-//https://www.cnblogs.com/yueshutong/p/9381540.html
-@SpringBootApplication
-public class SpringbootCacheApplication {
 
-    public static Logger logger = LoggerFactory.getLogger(SpringbootCacheApplication.class);
+@SpringBootApplication
+public class SpringbootECacheApplication {
+
+    public static Logger logger = LoggerFactory.getLogger(SpringbootECacheApplication.class);
 
     public static void main(String[] args) {
         ApplicationContext applicationContext = new SpringApplicationBuilder()
-                .sources(SpringbootCacheApplication.class)
-//                .web(WebApplicationType.NONE)
+                .sources(SpringbootECacheApplication.class)
+                .web(true)
                 .run(args);
         logger.info("启动");
     }
