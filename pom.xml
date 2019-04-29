@@ -21,6 +21,7 @@
         <module>springboot-weixin</module>
         <module>springboot-cache</module>
         <module>springboot-event</module>
+        <module>springboot-ecache</module>
     </modules>
 
     <dependencyManagement>
